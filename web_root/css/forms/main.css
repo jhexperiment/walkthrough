@@ -1,0 +1,556 @@
+div
+{
+	display: inline-block;
+}
+
+select
+{
+	cursor: hand; cursor: pointer;
+}
+
+.input, .label
+{
+	float: left;
+	line-height: 20px;
+}
+
+#container #col1 .label
+{
+	padding: 0px 5px 0px 0px;
+	width: 120px;
+}
+
+
+#container
+{
+	width: 803px;
+
+	
+	font-size: 16px;
+	display: inline-block;
+	margin: 0px 5px 5px 5px;
+	padding: 5px 10px 5px 10px;
+	border: 1px solid #327E04;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border-radius: 10px 10px 10px 10px;
+	color: #459E00;
+	text-align: left;
+	position: relative;
+	top: -12px;
+	z-index: 1000;
+}
+
+#container select
+{
+	font-size: 14px;
+}
+
+
+#container .text
+{
+	color: #000000;
+}
+
+#container #checkbox_controls
+{
+	margin: 5px;
+}
+
+#container #col1
+{
+	float: left;
+	padding: 0px 18px 0px 0px;
+}
+
+#container #col2
+{
+	float: left;
+	
+	
+
+}
+
+
+#container #col1 div
+{
+	margin: 0px 5px 5px 5px;
+}
+
+#container #col2	 div
+{
+	margin: 5px 5px 5px 5px;
+}
+
+#container #col3
+{
+	clear: both;
+	border-top: 1px solid #459E00;
+	display: block;
+	padding: 5px 0px 0px 0px;
+}
+
+#container #col4
+{
+	border-top: 1px solid #459E00;
+	display: block;
+	padding: 5px 0px 0px 0px;
+}
+
+#container #col5
+{
+	width: 801px;
+	padding: 5px 0px 0px 0px;
+	border-top: 1px solid #459E00;
+	display: inline-block;
+	text-align: right;
+	
+}
+
+#container #col5 #controls
+{
+	float: right;
+}
+
+#container #col5 #controls .label
+{
+	padding-right: 10px;
+}
+
+#container #col5 #controls #delete
+{
+	background: #D10202;
+	border-color: #7E0404;
+	color: #FCDFDF;
+}
+
+#container #col5 #controls #walkthrough_list
+{
+	text-align: right;
+}
+
+#container textarea
+{
+	width: 790px;
+	height: 100px;
+}
+
+#container #notes textarea
+{
+	margin: 0px 0px 10px 0px;
+}
+
+#page_header
+{
+	position: relative;
+	padding: 10px 10px 5px 10px;
+	margin: 10px 0px 0px 0px;
+	font-size: x-large;
+	width: 400px;
+	height: 35px;
+	-moz-border-radius: 30px 30px 0px 0px;
+	-webkit-border-radius: 30px 30px 0px 0px;
+	border-radius: 30px 30px 0px 0px;
+	border-bottom: 0px;
+	z-index: 1000;
+}
+
+#sign_out_header
+{
+	position: absolute;
+	right: 20px;
+	top: 20px;
+}
+
+#sign_out_header a
+{
+	color: #327E04;
+	text-decoration: underline;
+	font-size: 12px;
+}
+
+.header_button
+{
+	bottom: -5px;
+	position: relative;
+	width: auto;
+	height: 30px;
+	border-bottom: 0 none ! important;
+	padding: 2px;
+	z-index: 0;
+}
+
+.header_button:hover
+{
+	cursor: hand; cursor: pointer;
+}
+
+#left_button
+{
+	right: -10px;
+	padding: 5px 10px 5px 5px;
+	border-right: 0 none ! important;
+	-moz-border-radius: 10px 0px 0px 0px;
+	-webkit-border-radius: 10px 0px 0px 0px;
+	border-radius: 10px 0px 0px 0px;
+}
+
+#right_button
+{
+	left: -10px;
+	padding: 5px 5px 5px 10px;
+	border-left: 0 none ! important;
+	-moz-border-radius: 0px 10px 0px 0px;
+	-webkit-border-radius: 0px 10px 0px 0px;
+	border-radius: 0px 10px 0px 0px;
+}
+
+.inc_dec_widget #count
+{
+	width: 48px;
+	text-align: right;
+	font-size: 16px;
+}
+
+.checkbox_group
+{
+	float: left;
+	min-height: 175px;
+	min-width: 240px;
+	margin: 5px;
+	padding: 5px;
+	border: 1px solid #459E00;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.checkbox_group .header
+{
+	margin: 0px 0px 10px 0px;
+	padding: 0px 0px 5px 0px;
+	color: #000000;
+	display: block;
+	border-bottom: 1px solid #459E00;
+}
+
+.checkbox_group .header .close_icon
+{
+	cursor: hand; cursor: pointer;
+	float: right;
+}
+
+.checkbox_group .checkbox_list .label
+{
+	padding: 0px 5px 0px 5px;
+}
+
+#walkthrough_dialog
+{
+	padding: 10px 20px 10px 20px;
+	max-height: 400px;
+}
+
+#walkthrough_dialog #label
+{
+	margin: 0px 0px 5px 0px;
+}
+
+#walkthrough_dialog #label .label
+{
+	margin: 0px 5px 0px 0px;
+}
+
+#walkthrough_dialog #label input
+{
+	width: 256px;
+}
+
+#walkthrough_dialog #controls
+{
+	display: block;
+}
+
+#walkthrough_dialog #controls .label
+{
+	float: left;
+	line-height: 30px;
+}
+
+
+#walkthrough_dialog #controls .input
+{
+	float: right;
+}
+
+#walkthrough_dialog #checkbox_list
+{
+	border: 1px solid #DFD9C3;
+	min-height: 100px;
+	
+	min-width: 325px;
+	padding: 5px 5px 5px 5px;
+	margin: 10px 0px 0px 0px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+#walkthrough_dialog #checkbox_list .data
+{
+	margin: 5px;
+}
+
+#walkthrough_dialog #checkbox_list .data .delete_button
+{
+	cursor: hand; cursor: pointer;
+}
+
+#walkthrough_dialog #checkbox_list .data .label
+{
+	margin: 0px 5px 0px 0px;
+}
+
+#walkthrough_dialog #checkbox_list .data .label input
+{
+	width: 270px;
+}
+
+
+
+.validation_error_box
+{
+	position: absolute;
+	font-size: 10px;
+	line-height: 12px;
+	height: 11px;
+	/*width: 330px;*/
+	width: auto;
+	float:left;
+	margin: 0 0 0 0px;
+	padding: 5px;
+	overflow: hidden;
+	color: #9E2E2E ! important;
+	background: #FCDFDF ! important;
+	border: 1px solid #ECC5C5 ! important;
+	-moz-border-radius: 0 5px 5px 0;
+	-webkit-border-radius: 0 5px 5px 0;
+	border-radius: 0 5px 5px 0;
+}
+
+.error_highlight
+{
+	position: absolute;
+	background-color: red;
+	opacity: .3;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+
+}
+
+#walkthrough_id
+{
+	display: none;
+}
+
+#observation_time .label
+{
+	width: auto !important;
+	padding: 0px !important;
+	margin: 0px !important;
+}
+
+#observation_time .input
+{
+	margin: 5px 5px 5px 20px !important;
+}
+
+#observation_time .input input
+{
+	width: 132px;
+}
+
+#observation_time .input span
+{
+	font-size: 12px;
+}
+
+#observation_time div
+{
+	float: none ! important;
+	display: block ! important;
+}
+
+
+
+#counters
+{
+	height: 297px;
+	width: 390px;
+	padding: 0px 0px 0px 0px !important;
+	margin: 0px 0px 10px 0px !important;
+	border: 1px solid #459E00;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#counters .controls
+{
+	width: 381px;
+	padding: 0px 0px 5px 0px;
+	margin: 5px 5px 0px 5px !important;
+	text-align: right;
+	border-color: #459E00;
+	border-width: 1px;
+	border-bottom-style: solid;
+}
+
+#counters .label
+{
+	
+	
+}
+
+#counters .label input
+{
+	text-align: right;
+	width: 210px;
+	font-size: 16px ! important;
+}
+
+#counters .viewport
+{
+	padding: 0px 0px 0px 0px ! important;
+	margin: 0px 0px 0px 0px ! important;
+}
+
+#counters .counter_list
+{
+	width:  402px;
+	height: 251px;
+
+	padding: 5px 0px 0px 0px ! important;
+	margin: 0px 0px 5px 5px ! important;
+	overflow-y: auto;
+}
+
+#counters .counter_item {
+	padding: 0px 0px 0px 0px ! important;
+	margin: 0px 0px 0px 0px ! important;
+}
+
+#counters .counter_item .delete_button
+{
+	cursor: hand; cursor: pointer;
+	float: left;
+	margin: 8px 0px 0px 0px !important
+}
+
+#observer {
+	margin: 5px 5px 32px 5px !important;
+}
+
+#content {
+	min-height: 160px;
+}
+
+#timers {
+	height: 160px;
+	width: 373px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	border: 1px solid #459E00;
+	margin: 0px 0px 0px 0px !important;
+	padding: 5px !important;
+
+}
+
+#timers .controls {
+	border-bottom: 1px solid #459E00;
+	padding: 0px 0px 5px 0px;
+	margin: 0px 0px 0px 0px !important;
+	width: 373px;
+}
+
+#timers .controls .label {
+	padding: 0px !important;
+	float: left;
+	line-height: 20px;
+}
+
+#timers .controls input {
+	float: right;
+}
+
+#timers .timer_item {
+	margin: 0px 0px 5px 0px !important;
+	padding: 0px 0px 0px 0px !important;
+}
+
+#timers .timer_item div {
+	margin: 0px 0px 0px 0px !important;
+	padding: 0px 0px 0px 0px !important;
+}
+
+#timers .timer_item .button {
+	margin: 0px 5px 0px 5px !important;
+}
+
+#timers .timer_item .image {
+	margin: 2px 0px 0px 0px !important;
+}
+
+#timers .timer_item img {
+	height: 24px;
+}
+
+#timers .timer_list {
+	padding: 5px 0px 0px 0px !important;
+	margin: 0px 0px 0px 0px !important;
+	height: 127px;
+	width: 395px;
+	overflow-y: auto;
+}
+
+#timers .timer_list div {
+	display: inline-block;
+	float: left;
+}
+
+#timers .timer_list .delete_button {
+	cursor: hand; cursor: pointer;
+	margin: 5px 5px 5px 0px !important;
+}
+
+#timers .timer_list input {
+	font-size: 16px;
+}
+
+#timers .timer_list .label,
+#timers .timer_list .label input {
+	width: 173px !important;
+	padding: 0px !important;
+	margin: 0px 0px 0px 0px !important;
+	text-align: right;
+}
+
+#timers .timer_list .count {
+	margin: 0px 0px 0px 5px !important;
+}
+#timers .timer_list .count input {
+	padding: 0px 0px 0px 0px !important;
+	width: 40px;
+	text-align: right;
+}
+
+#timers .timer_list .count span {
+	font-size: 12px;
+	padding: 0px 0px 0px 5px;
+}
+
+#timers #start_stop {
+	font-size: 12px;
+}
+
+

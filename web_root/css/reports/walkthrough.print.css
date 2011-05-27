@@ -1,0 +1,72 @@
+body
+{
+	background-color: white !important;
+	color: black !important;
+}
+
+.header_button, #page_header, #checkbox_list a,
+#print_all, #print_button input,
+#container #walkthrough_info_controls
+{
+	display: none;
+}
+
+table th, table td, .ui-widget-content, .ui-state-default, .ui-resizable-handle, .ui-button
+{
+	font-size: 10px !important;
+	border: 0px none !important;
+	background-color: white !important;
+	color: black !important;
+	background: none !important;
+	margin:0px;
+}
+
+
+
+#walkthrough_info_container
+{
+	font-size: 22px ! important;
+	height: 850px ! important;
+}
+
+#walkthrough_info_container .text
+{
+	min-width: 0px ! important;
+}
+
+#walkthrough_info_container #title
+{
+	margin: 0px auto 0px auto !important;
+}
+
+#walkthrough_info_container #title, #walkthrough_info_container .label
+{
+	color: black !important;
+}
+
+#walkthrough_info_container #teacher
+{
+	margin: -20px 0px 0px 0px ! important;
+	float: right;
+
+}
+
+#walkthrough_info_container #choral_response,
+#walkthrough_info_container #buddybuzz,
+#walkthrough_info_container #call_outs
+{
+	margin: 0px 60px 20px 0px ! important;
+}
+
+#walkthrough_info_container .checkbox_container
+{
+	border: 0 none !important;
+}
+
+#walkthrough_info_container .checkbox_container .header
+{
+	font-size: 16px;
+	border-bottom: 1px solid black !important;
+}
+
+

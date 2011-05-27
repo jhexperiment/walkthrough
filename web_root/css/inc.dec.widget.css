@@ -1,0 +1,25 @@
+.inc_dec_widget
+{
+	display: inline-block;
+}
+
+.inc_dec_widget input
+{
+	margin: 0px 13px;
+	padding: 0px 0px 0px 0px;
+
+}
+
+
+.inc_dec_widget #count
+{
+	width: 36px;
+	text-align: right;
+}
+
+.inc_dec_widget #increment, .inc_dec_widget #decrement
+{
+	cursor: hand; cursor: pointer;
+	display: inline-block !important;
+	margin: 0px 5px 0px 5px !important;
+}

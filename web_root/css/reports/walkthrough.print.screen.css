@@ -1,0 +1,297 @@
+div
+{
+	display: inline-block;
+}
+
+
+
+
+#walkthrough_table
+{
+	display: block;
+	overflow-x: auto;
+	z-index: 600;
+	border-width: 0px !important;
+}
+
+#walkthrough_table table
+{
+	display: block;
+	
+}
+
+
+#walkthrough_table th#checkbox
+{
+	background: #F5F3E5 !important;
+	border-width: 0px;
+}
+
+#walkthrough_table td#checkbox
+{
+	background: #F5F3E5;
+	padding: 0px 5px 0px 0px !important;
+	border-width: 0px !important;
+	text-align: right;
+	vertical-align: middle;
+}
+
+#walkthrough_table td#checkbox input
+{
+	padding: 0px !important;
+	margin: 0px !important;
+}
+
+#walkthrough_table #controls
+{
+	display: block;
+	padding: 10px 10px 10px 10px;
+	margin: 10px auto 10px auto;
+	font-size: small;
+	max-width: 200px;
+}
+
+#walkthrough_table tr th
+{
+	text-align: left ! important;
+}
+
+
+#walkthrough_table tr #walkthrough_id
+{
+	width: 14px;
+}
+
+#walkthrough_table tr #start_time
+{
+	width: 200px;
+}
+
+#walkthrough_table tr #duration
+{
+	text-align: right;
+	
+}
+
+#walkthrough_table tr #teacher
+{
+	width: 350px;
+}
+
+#walkthrough_table tr #grade
+{
+	text-align: right;
+	width: 40px;
+}
+
+#walkthrough_table tr #subject
+{
+	width: 90px;
+}
+
+#walkthrough_table tr #thinking_map
+{
+	width: 100px;
+}
+
+#walkthrough_table tr #buddybuzz
+{
+	text-align: right;
+	width: 70px;
+}
+
+#walkthrough_table tr #choral_response
+{
+	text-align: right;
+	width: 40px;
+}
+
+#walkthrough_table tr #call_outs
+{
+	text-align: right;
+	width: 60px;
+}
+
+#walkthrough_table tr #notes
+{
+	width: 200px;
+}
+
+#walkthrough_table tr #comments
+{
+	width: 200px;
+}
+
+#walkthrough_table tr #checkbox_list
+{
+	text-align: right;
+}
+
+#walkthrough_table tr #checkbox_list a
+{
+
+}
+
+
+
+#walkthrough_info_container
+{
+	display: block;
+	margin: 0px 0px 10px 0px;
+	padding: 10px 10px 40px 10px;
+	font-size: 18px;
+	max-width: 900px;
+}
+
+#walkthrough_info_container .label
+{
+	font-size: 18px;
+	min-width: 150px;
+	color: #459E00;
+}
+
+#walkthrough_info_container .text
+{
+	font-size: 18px;
+	text-decoration: underline;
+	min-width: 70px;
+}
+
+
+#walkthrough_info_container #date
+{
+	margin: 0px 0px 20px 0px;
+}
+
+#walkthrough_info_container #observer
+{
+	margin: 0px 0px 20px 0px;
+}
+
+#walkthrough_info_container #teacher
+{
+	margin: 30px 40px 0px 0px;
+	float: right;
+
+}
+
+#walkthrough_info_container #teacher .label
+{
+	min-width: 90px;
+}
+
+#walkthrough_info_container #title
+{
+	color: #459E00;
+	display: block;
+	font-size: 24px;
+	width: 390px;
+	margin: 50px auto 50px auto;
+}
+
+#walkthrough_info_container #start_timestamp,
+#walkthrough_info_container #end_timestamp,
+#walkthrough_info_container #duration
+{
+	margin: 0px 5px 20px 0px;
+}
+
+#walkthrough_info_container #end_timestamp .label
+{
+	min-width: 16px;
+	margin: 0px 5px 0px 0px;
+}
+
+#walkthrough_info_container #duration .label
+{
+	min-width: 22px;
+	margin: 0px 5px 0px 0px;
+}
+
+#walkthrough_info_container #subject
+{
+	margin: 0px 0px 20px 0px;
+}
+
+#walkthrough_info_container #choral_response,
+#walkthrough_info_container #buddybuzz,
+#walkthrough_info_container #call_outs
+{
+	margin: 0px 50px 20px 0px;
+}
+#walkthrough_info_container #choral_response .label
+{
+	min-width: 70px;
+	margin: 0px 5px 0px 0px;
+}
+#walkthrough_info_container #buddybuzz .label
+{
+	min-width: 110px;
+	margin: 0px 5px 0px 0px;
+}
+#walkthrough_info_container #call_outs .label
+{
+	min-width: 95px;
+	margin: 0px 5px 0px 0px;
+}
+
+#walkthrough_info_container #comments .label
+{
+	margin: 0px 0px 10px 0px;
+}
+
+#walkthrough_info_container #comments .text
+{
+	margin: 0px 0px 0px 20px;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+#walkthrough_info_container #checkbox_lists
+{
+	margin: 0px 0px 20px 0px;
+	min-height: 200px;
+}
+
+#walkthrough_info_container #print_button
+{
+	display: inline-block;
+	float: right;
+}
+
+#walkthrough_info_container .checkbox_container
+{
+	margin: 5px;
+	padding: 5px;
+	border: 1px solid #459E00;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+#walkthrough_info_container .checkbox_container .header
+{
+	margin: 0px 0px 10px 0px;
+	padding: 0px 0px 5px 0px;
+	color: #000000;
+	display: block;
+	border-bottom: 1px solid #459E00;
+}
+
+#walkthrough_info_container .checkbox_container .header .close_icon
+{
+	cursor: hand; cursor: pointer;
+	float: right;
+}
+
+#walkthrough_info_container .checkbox_container .checkbox_list .label
+{
+	padding: 0px 5px 0px 5px;
+}
+
+
+
+#report_type
+{
+	display: none;
+}
